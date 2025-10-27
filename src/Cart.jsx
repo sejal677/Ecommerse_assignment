@@ -26,7 +26,7 @@ const Cart = () => {
       <h1 className="cart-heading"> Your Cart</h1>
 
       {cartItems.length === 0 ? (
-        <p className="empty-message">Your cart is empty.</p>
+        <p className="empty-message">Your cart is empty .</p>
       ) : (
         <div className="cart-list">
           {cartItems.map((item, index) => (
